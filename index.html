@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/3a99cbe458.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
     <header>
-        
         <a href="checkout.html"><i class="fa-solid fa-cart-shopping"></i></a>
         <input type="text" placeholder="Søk..">
         <i class="fa-solid fa-magnifying-glass"></i>
@@ -21,15 +21,98 @@
             <a href="#kontaktInformasjon">kontakt oss</a>
         </nav>
     </header>
-    
-    <div class="spacer"></div>
+
+    <section>
+        <h1>Overskrift for banner</h1>
+        <p>Duis dapibus purus nec mi venenatis vehicula.</p>
+        <a href="#">Lenke</a>
+    </section>
+
+    <section id="populaereProdukter">
+        <h2>De mest populære skoene</h2>
+        <p>Fusce pulvinar quis risus ut pellentesque.</p>
+        <button type="button">Nye Produkter</button>
+        <button type="button">Spesialtilbud</button>
+        <button type="button">Mest Solgt</button>
+        <article>
+            <img class="product-shoe" src="img/airmax.png" alt="Nike Air Max sko, hvite sportssko med doble trykkrør">
+            <p>Nike Air Max</p>
+            <p>Kr 2499</p>
+        </article>
+        <article>
+            <img class="product-shoe" src="img/y2k.png" alt="Nike Y2K sko, svarte og hvite hverdagsko med mekanisk demping og mesh-overdel">
+            <p>Nike Y2K</p>
+            <p>Kr 2499</p>
+        </article>
+        <article>
+            <img class="product-shoe" src="img/airforce1.png" alt="Nike Air Force 1 sko, hvite livstilsko med gull Swoosh-merker laget av skinn med Nike Air-demping">
+            <p>Air Jordan 1</p>
+            <p>Kr 2499</p>
+        </article>
+        <article>
+            <img class="product-shoe" src="img/dunk.png" alt="Nike Dunk sko, hvite og gråe livstilsko laget av skinn med flate såler">
+            <p>Nike Dunk</p>
+            <p>Kr 2499</p>
+        </article>
+        <article>
+            <img class="product-shoe" src="img/airjordan.png" alt="Nike Air Jordan sko, brune og svarte basketballsko med stropp, høy topp for ankelstøtte og synlige luftputer">
+            <p>Air Jordan</p>
+            <p>Kr 2499</p>
+        </article>
+        <article>
+            <img class="product-shoe" src="img/pegasus.png" alt="Nike Pegasus sko, orange og hvite løpesko med stor yttersåle og mesh-overdel">
+            <p>Nike Pegasus</p>
+            <p>Kr 2499</p>
+        </article>
+    </section>
+
+    <section id="populaereKategorier">
+        <h2>De mest populære kategoriene</h2>
+        <p>Praesent ut nulla sed purus interdum auctor.</p>
+        <article>
+            <h3>Kategori</h3>
+            <a href="#"><img class="kategory-shoe" src="img/airmax.png" alt="Kategori bilde for Nike Air Max sko, hvite sportssko med doble trykkrør"></a>
+        </article>
+        <article>
+            <h3>Kategori</h3>
+            <a href="#"><img class="kategory-shoe" src="img/y2k.png" alt="Kategori bilde for Nike Y2K sko, svarte og hvite hverdagsko med mekanisk demping og mesh-overdel"></a>
+        </article>
+        <article>
+            <h3>Kategori</h3>
+            <a href="#"><img class="kategory-shoe" src="img/airforce1.png" alt="Kategori bilde for Nike Air Force 1 sko, hvite livstilsko med gull Swoosh-merker laget av skinn med Nike Air-demping"></a>
+        </article>
+    </section>
+
+    <section>
+        <h2>Anmeldelser</h2>
+        <article>
+            <img>
+            <h3>Proin eget luctus mi.</h3>
+            <p>Praesent ut nulla sed purus interdum auctor. Donec sed dignissim urna. Nulla ultricies erat quis molestie congue. Donec ut viverra augue. Phasellus dignissim molestie tempus.</p>
+        </article>
+        <article>
+            <img>
+            <h3>Proin eget luctus mi.</h3>
+            <p>Praesent ut nulla sed purus interdum auctor. Donec sed dignissim urna. Nulla ultricies erat quis molestie congue. Donec ut viverra augue. Phasellus dignissim molestie tempus.</p>
+        </article>
+        <article>
+            <img>
+            <h3>Proin eget luctus mi.</h3>
+            <p>Praesent ut nulla sed purus interdum auctor. Donec sed dignissim urna. Nulla ultricies erat quis molestie congue. Donec ut viverra augue. Phasellus dignissim molestie tempus.</p>
+        </article>
+        <article>
+            <img>
+            <h3>Proin eget luctus mi.</h3>
+            <p>Praesent ut nulla sed purus interdum auctor. Donec sed dignissim urna. Nulla ultricies erat quis molestie congue. Donec ut viverra augue. Phasellus dignissim molestie tempus.</p>
+        </article>
+    </section>
 
     <footer>
         <section>
             <a href="index.html"><img src="img/logo.png" alt="Nettsidelogo som viser en sko med nettsidens navn designet på" style="height: 50px; width: auto;"></a>
             <p>Fusce pulvinar quis risus ut pellentesque.</p>
         </section>
-        <section>
+        <section id="kontaktInformasjon">
             <h3>Kontakt</h3>
             <p>Adresse: B R A Veien 4, 1757 Halden</p>
             <p>Telefon: 69 60 80 00</p>
@@ -40,7 +123,7 @@
             <h3>Snarveier</h3>
             <a href="index.html#populaereProdukter">Produkter</a>
             <a href="index.html#populaereKategorier">Kategorier</a>
-            <a href="https://instagram.com">Kontakt Oss</a>
+            <a href="#kontaktInformasjon">Kontakt Oss</a>
         </section>
         <section>
             <h3>Sosiale medier</h3>
