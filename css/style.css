@@ -19,7 +19,7 @@ footer{
     object-fit: cover; 
 }
 
-/* product.htmk spesifik */
+/* product.html spesifik */
 /* Style the list */ /* Kode i breadcrumb klassen tatt og modifisert fra https://www.w3schools.com/howto/howto_css_breadcrumbs.asp */
 ul.breadcrumb {
   padding: 10px 16px;
@@ -45,3 +45,15 @@ ul.breadcrumb li+li:before {
 .small-product-picture {
     height: 100px;
 }
+/* checkout.html spesifik */
+.checkout-picture {
+    height: 200px;
+}
+.checkout-option {
+    cursor: pointer;
+    display: flex; 
+    align-items: center; 
+} 
+.checkout-option input {
+     margin-right: 10px; 
+} 
